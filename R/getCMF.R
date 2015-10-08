@@ -1,4 +1,4 @@
-CMF <- function(){
+getCMF <- function(){
   SP <- read.table("data/CMF.txt")
 as.matrix(SP)
 }
